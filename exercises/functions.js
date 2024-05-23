@@ -15,59 +15,59 @@
 
 //a.
 function suma(num1, num2) {
-    return num1 + num2;
+  return num1 + num2;
 }
 var resultado = suma(5, 10);
 console.log(resultado);
 
 //b.
 function suma(num1, num2) {
-    if (typeof num1 !== "number" || typeof num2 !== "number") {
-        alert("Uno de los parámetros no es un número");
-        return NaN;
-    }
-    return num1 + num2;
+  if (typeof num1 !== "number" || typeof num2 !== "number") {
+    alert("Uno de los parámetros no es un número");
+    return NaN;
+  }
+  return num1 + num2;
 }
 var resultado = suma(5, "hola");
 console.log(resultado);
 
-//c.
+// //c.
 function validateInteger(num) {
-    return Number.isInteger(num);
+  return Number.isInteger(num);
 }
+console.log(validateInteger(5));
 
 //d.
 function suma(num1, num2) {
-    if (typeof num1 !== "number" || typeof num2 !== "number") {
-        alert("Uno de los parámetros no es un número");
-        return NaN;
-    }
-    if (!validateInteger(num1) || !validateInteger(num2)) {
-        alert("Uno de los números no es entero");
-        return Math.round(num1) + Math.round(num2);
-    }
-    return num1 + num2;
+  if (typeof num1 !== "number" || typeof num2 !== "number") {
+    alert("Uno de los parámetros no es un número");
+    return NaN;
+  }
+  if (Number.isInteger(num1) || Number.isInteger(num2)) {
+    alert("Uno de los números no es entero");
+    return Math.round(num1) + Math.round(num2);
+  }
+  return num1 + num2;
 }
 var resultado = suma(5.5, 10.5);
 console.log(resultado);
 
 //e.
-function validateInteger(num) {
-    return Number.isInteger(num);
+function validacion(num1, num2) {
+  if (typeof num1 !== "number" || typeof num2 !== "number") {
+    alert("Uno de los parámetros no es un número");
+    return NaN;
+  }
+  if (!validateInteger(num1) || !validateInteger(num2)) {
+    alert("Uno de los números no es entero");
+    return Math.round(num1) + Math.round(num2);
+  }
+  return num1 + num2;
 }
 
 function suma(num1, num2) {
-    if (typeof num1 !== "number" || typeof num2 !== "number") {
-        alert("Uno de los parámetros no es un número");
-        return NaN;
-    }
-    if (!validateInteger(num1) || !validateInteger(num2)) {
-        alert("Uno de los números no es entero");
-        return Math.round(num1) + Math.round(num2);
-    }
-    return num1 + num2;
+  return validacion(num1, num2);
 }
-var resultado = suma(5.5, 10.5);
+
+var resultado = suma(5.8, 10.6);
 console.log(resultado);
-
-

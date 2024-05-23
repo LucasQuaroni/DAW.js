@@ -8,19 +8,19 @@
 // length).
 
 //a.
-let num1 = 10;
-let num2 = 20;
-let suma = num1 + num2;
+var num1 = 10;
+var num2 = 20;
+var suma = num1 + num2;
 console.log(suma);
 
 //b.
-let string1 = "Hola";
-let string2 = "Mundo";
-let concatenacion = string1 + string2;
+var string1 = "Hola";
+var string2 = "Mundo";
+var concatenacion = string1 + string2;
 console.log(concatenacion);
 
 //c.
-let string3 = "Hola";
-let string4 = "Mundo";
-let largo = string3.length + string4.length;
+var string3 = "Hola";
+var string4 = "Mundo";
+var largo = string3.length + string4.length;
 console.log(largo);

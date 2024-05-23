@@ -14,25 +14,25 @@
 
 //a.
 var palabras = ["hola", "mundo", "como", "estas", "hoy"];
-for (let i = 0; i < palabras.length; i++) {
+for (var i = 0; i < palabras.length; i++) {
     alert(palabras[i]);
 }
 
 //b.
-for (let i = 0; i < palabras.length; i++) {
+for (var i = 0; i < palabras.length; i++) {
     alert(palabras[i].substring(0, 1).toUpperCase() + palabras[i].substring(1, palabras[i].length));
 }
 
 //c.
 var sentence = "";
-for (let i = 0; i < palabras.length; i++) {
+for (var i = 0; i < palabras.length; i++) {
     sentence += palabras[i] + " ";
 }
 alert(sentence);
 
 //d.
 var array = [];
-for (let i = 0; i < 10; i++) {
+for (var i = 0; i < 10; i++) {
     array.push(i);
 }
 console.log(array);

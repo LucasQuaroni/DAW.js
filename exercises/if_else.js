@@ -13,7 +13,7 @@
 // vii. “Anciano” si es mayor a 75 años.
 
 //a.
-let random = Math.random();
+var random = Math.random();
 if (random >= 0.5) {
     alert("Greater than 0,5");
 }
@@ -23,7 +23,7 @@ else {
 console.log(random);
 
 //b.
-let age = Math.floor(Math.random() * 100);
+var age = Math.floor(Math.random() * 100);
 console.log(age);
 if (age < 2) {
     alert("Bebe");

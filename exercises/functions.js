@@ -31,7 +31,7 @@ function suma(num1, num2) {
 var resultado = suma(5, "hola");
 console.log(resultado);
 
-// //c.
+//c.
 function validateInteger(num) {
   return Number.isInteger(num);
 }

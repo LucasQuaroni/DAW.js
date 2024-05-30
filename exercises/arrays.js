@@ -18,7 +18,6 @@ console.log(meses[4], meses[10]);
 
 //b.
 console.log(meses.sort());
-//volver el array a su estado original
 meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
 "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 
@@ -36,7 +35,6 @@ console.log(meses);
 console.log(meses.reverse());
 
 //f.
-//volver el array a su estado original
 meses.reverse();
 console.log(meses.join("-"));
 
